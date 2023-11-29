@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./age calculater/age.css">
+    <title>AGE CALCULATOR</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="base">
+                <h4>Age Calculator</h4>
+            
+            <div class="block">
+                <p class="title">date</p>
+                <input type="text" name="date" id="date" placeholder="dd" minlength="1" maxlength="2" required>
+            </div>
+            <div class="block">
+                <p class="title">month</p>
+                <input type="text" name="month" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+                   </div>
+                   <div class="block">
+                    <p class="title">year</p>
+                    <input type="text" name="year" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
+                   </div> 
+                </div>  
+                <div class="base">
+                    <input type="button" name="submit" value="submit" onclick="age()">
+                </div>
+                <div class="age" id="age"></div>       
+                 </form>
+    </div>
+<script src="./age calculater/age.js"></script>    
+</body>
+</html>
